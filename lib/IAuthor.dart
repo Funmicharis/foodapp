@@ -33,7 +33,7 @@ class IAuthor extends StatelessWidget {
               Row(
                 children: [
                   Image.asset(
-                    "assets/images/Location.png",
+                    "assets/images/location.png",
                   ),
                   SizedBox(
                     width: 5,
@@ -58,9 +58,9 @@ class IAuthor extends StatelessWidget {
             backgroundColor: Colors.red,
             foregroundColor: Colors.white,
             padding:
-            EdgeInsets.symmetric(vertical: 8, horizontal: 8),
+            EdgeInsets.symmetric(vertical: 10, horizontal: 12),
             shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(12), // <-- Radius
+              borderRadius: BorderRadius.circular(10), // <-- Radius
             ),
           ),
         ),

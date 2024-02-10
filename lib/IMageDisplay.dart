@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-class ImageDisplay extends StatelessWidget {
+class IMageDisplay extends StatelessWidget {
   String bgImage;
-  
-   ImageDisplay({super.key, required this.bgImage});
+
+   IMageDisplay({super.key, required this.bgImage});
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +21,7 @@ class ImageDisplay extends StatelessWidget {
             ),
           ),
         ),
-        Image.asset("assets/images/Play_button.png", fit: BoxFit.cover),
+        Image.asset("assets/images/play.png", fit: BoxFit.cover),
       ],
     ) );
   }
